@@ -8,6 +8,8 @@ find_package(OpenGL REQUIRED)
 # Include our dependency scripts
 include(cmake/glfw.cmake)
 include(cmake/imgui.cmake)
+include(cmake/glad.cmake)
+include(cmake/glm.cmake)
 
 # Add your app
 add_subdirectory(src)
